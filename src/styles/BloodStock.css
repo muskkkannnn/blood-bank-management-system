@@ -1,0 +1,28 @@
+.stock-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .stock-container h2 {
+    color: #e74c3c;
+    font-size: 2.5rem;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .stock-table th, .stock-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .stock-table th {
+    background-color: #e74c3c;
+    color: white;
+  }
+  

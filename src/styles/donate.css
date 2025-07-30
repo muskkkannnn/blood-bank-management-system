@@ -1,0 +1,98 @@
+/* src/styles/donate.css */
+/* .donate-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input, select {
+    width: 250px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 270px;
+    padding: 10px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #c9302c;
+  }
+   */
+
+
+
+
+/* Flex container for form & image */
+.donate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Align vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 100px; /* Equal spacing */
+}
+
+/* Form Section */
+.donate-content {
+  flex: 1;
+  max-width: 40%; /* Ensure form doesn't stretch too much */
+  text-align: left;
+}
+
+.donate-content h1 {
+  color: #d9534f;
+  font-size: 3.5rem;
+  margin-top: 0px;
+}
+
+
+/* Fix form input width */
+.donate-content input,
+.donate-content select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button */
+.donate-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Image Section */
+.donate-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.donate-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
