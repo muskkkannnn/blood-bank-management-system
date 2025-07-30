@@ -1,6 +1,6 @@
 Blood Bank Management System
 
-This is the full stack project on 'Blood Bank Management System'.
+This is the full-stack project on 'Blood Bank Management System'.
 
 The technologies used for creating this full stack project:
 
