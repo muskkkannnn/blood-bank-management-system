@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "@/styles/Home.css"; // Import the CSS file
+import homepageImage from '/src/assets/homepage.jpg';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ const Home = () => {
       </div>
       {/* <div className="image-section" width="500" height="600"> */}
       <div className="home-image">
-        <img src="/src/assets/homepage.jpg" alt="Blood Donation" />
+        <img src={homepageImage} alt="Blood Donation" />
       </div>
       
       {/* </div> */}

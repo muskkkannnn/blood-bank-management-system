@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "../styles/contact.css";
+import "../styles/Contact.css";
+import contactImage from '/src/assets/contact-us.webp';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +52,7 @@ const Contact = () => {
 
       {/* Image Section */}
       <div className="contact-image">
-        <img src="/src/assets/contact-us.webp" alt="Contact Us" />
+        <img src={contactImage} alt="Contact Us" />
       </div>
     </div>
   );

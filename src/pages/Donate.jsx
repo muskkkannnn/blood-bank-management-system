@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "@/styles/donate.css"; // Import the CSS file
+import donateImage from '/src/assets/donate-page.jpg';
 
 function Donate() {
   const [formData, setFormData] = useState({
@@ -82,7 +83,7 @@ function Donate() {
 
       {/* Right Section - Image */}
       <div className="donate-image">
-        <img src="src/assets/donate-page.jpg" alt="Blood Donation" />
+        <img src={donateImage} alt="Blood Donation" />
       </div>
     </div>
   );

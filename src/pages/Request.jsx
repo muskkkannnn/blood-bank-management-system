@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "@/styles/request.css";
+import requestImage from '/src/assets/request-page.jpg';
 
 function Request() {
   const [formData, setFormData] = useState({
@@ -82,7 +83,7 @@ function Request() {
 
         {/* Image Section */}
         <div className="request-image">
-          <img src="/src/assets/request-page.jpg" alt="Blood Request" />
+          <img src={requestImage} alt="Blood Request" />
         </div>
       </div>
     </>

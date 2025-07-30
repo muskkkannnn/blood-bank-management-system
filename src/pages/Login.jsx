@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "@/styles/Login.css";
+import "@/styles/login.css";
+import loginImage from '/src/assets/login-page.webp';
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -75,7 +76,7 @@ function Login() {
 
       {/* Image Section */}
       <div className="login-image">
-        <img src="/src/assets/login-page.webp" alt="Login" />
+        <img src={loginImage} alt="Login" />
       </div>
     </div>
   );
